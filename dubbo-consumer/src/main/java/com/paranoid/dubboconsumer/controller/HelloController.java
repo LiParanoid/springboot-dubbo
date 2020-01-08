@@ -12,8 +12,8 @@ public class HelloController {
     HelloService helloService;
     @RequestMapping("/hello")
     public String hello(){
-        String hello = helloService.sayHello("world");
-        System.out.println(helloService.sayHello("SnailClimb"));
+        String hello = helloService.sayHello(" world");
+        System.out.println(helloService.sayHello(" LiParanoid"));
         return hello;
     }
 }
